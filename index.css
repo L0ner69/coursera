@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+section {
+    position: relative;
+    border: 2px solid crimson;
+    width: 33.33%;
+    float: left;
+    /* margin: 1%; */
+
+    padding: 3vw;
+    padding-top: 4vw;
+    background-color: gray;
+    color: rgb(11, 70, 70);
+    font-family: cursive;
+}
+
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section>span {
+    background-color: rgb(109, 109, 109);
+}
+
+span p.pin {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section.Chicken {
+        width: 50%;
+    }
+
+    section.Beef {
+        width: 50%;
+    }
+
+    section.Sushi {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        width: 100%;
+    }
+}
